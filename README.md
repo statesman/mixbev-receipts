@@ -5,7 +5,9 @@ This is a fork from the public [UT Data](https://github.com/utdata/mixbev-receip
 
 This one is configured to process and publish the updated data.
 
-It uses a `conda` virtual environment:
+It uses a `conda` virtual environment.
+
+(Note: If you are using a different virtual environment, you can use mixbev-pip.txt as a requirements file.)
 
 ## Setup
 This should only have to be done once on your machine. Assumes you are on Mac, but this should work with Windows.
@@ -24,6 +26,7 @@ This should only have to be done once on your machine. Assumes you are on Mac, b
 - `cd` into the `mixbev-receipts`
 - run `source activate mixbev` to enter the virtual environment
 - run `jupyter notebook` to start the notebook
-- Your browser will open to []()    
+- Your browser will open[jupyter](http://localhost:8888/tree)
+- Go inside the `notebooks` directory and choose `Mixed-beverages-agate.ipynb` 
 
 The rest of the directions are in the **Mixed beverages monthly update** notebook.
