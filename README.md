@@ -30,12 +30,22 @@ This should only have to be done once on your machine. Assumes you are on Mac, b
 - run `source activate mixbev` to load the environment so we can add the `agate` package that is not in conda.
 - run `pip install agate` to install the [agate](http://agate.readthedocs.io/) package
 
+## Get the data
+
+We'll figure out how to do this with the API at some point. But for now:
+
+- Got [UT Data](https://github.com/utdata/mixbev-receipts/)
+- Explore data, then view
+- Filter based on the Obligation End Date.
+- Save that file as csv into `mixbev-files/YYYY`.
+
 ## Updating monthly numbers
 
 - `cd` into the `mixbev-receipts`
 - run `source activate mixbev` to enter the virtual environment
 - run `jupyter notebook` to start the notebook
 - Your browser will open[jupyter](http://localhost:8888/tree)
-- Go inside the `notebooks` directory and choose `Mixed-beverages-agate.ipynb` 
+- Go inside the `notebooks` directory and choose `Mixed Beverages New Format.ipynb`
+- Make a copy for your month. 
 
-The rest of the directions are in the **Mixed beverages monthly update** notebook.
+The rest of the directions are in the notebook.
