@@ -21,9 +21,9 @@ This should only have to be done once on your machine. Assumes you are on Mac, b
 
 ### Create and configure the environment
 
-- run `conda create -n mixbev --file mixbev-env.txt` to create the mixbev environment that has the python packages you need
-- run `source activate mixbev` to load the environment so we can add the `agate` package that is not in conda.
-- run `pip install agate` to install the [agate](http://agate.readthedocs.io/) package
+- run `conda create -n mixbev --file mixbev-env.txt` to create the mixbev environment that has the python packages you need.
+    + The environment includes [jupyter](http://jupyter.org/) and [agate](http://agate.readthedocs.io/)
+    + If you are using a different environment manager, you can use the `mixbev-pip.txt` file as a requirements file.
 
 ## Updating monthly numbers
 
